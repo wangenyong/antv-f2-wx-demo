@@ -1,0 +1,36 @@
+<template>
+  <i
+    class="iconfont icon-{{ icon }}"
+    :class="{ 'rotate': rotate }"
+    :style="{ color: color, fontSize: fontSize }"
+  />
+</template>
+
+<script>
+import wepy from '@wepy/core';
+
+wepy.component({
+  props: {
+    icon: {
+      default: 'icon-ghost',
+    },
+    color: {
+      default: '#2277e0',
+    },
+    fontSize: {
+      default: '16px',
+    },
+    rotate: {
+      default: false
+    }
+  },
+});
+</script>
+
+<style lang="less">
+@import '../assets/css/iconfont.wxss';
+
+.rotate {
+  transform: rotate(180deg);
+}
+</style>
