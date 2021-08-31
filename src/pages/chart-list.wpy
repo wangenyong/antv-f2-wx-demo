@@ -1,10 +1,11 @@
 <config>
 {
-  navigationBarTitleText: '基础演示',
+  navigationBarTitleText: 'AntV F2 图表示例',
   "usingComponents": {
     "iconfont": "../components/iconfont"
   }
 }
+</config>
 <template>
   <div class="container"></div>
 </template>
@@ -12,6 +13,12 @@
 import wepy from '@wepy/core';
 wepy.page({
   data: {},
+  onLoad(options) {
+    console.log(options)
+    wx.setNavigationBarTitle({
+      title: options.label
+    });
+  },
   methods: {}
 });
 </script>

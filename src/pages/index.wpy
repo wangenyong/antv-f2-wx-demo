@@ -10,7 +10,7 @@
   <div class="container">
     <div class="grid">
       <div class="grid-item" v-for="(item, index) in items" v-bind:key="index">
-        <div class="grid-item-content item" @tap="onItemTap(item.page)">
+        <div class="grid-item-content item" @tap="onItemTap(item.label, item.type)">
           <iconfont :icon="item.icon" color="grey"></iconfont>
           <div class="label">{{ item.label }}</div>
         </div>
@@ -27,85 +27,84 @@ wepy.page({
       {
         label: '基础演示',
         icon: 'bar',
-        page: 'chart-basic'
+        type: 'chart-basic'
       },
       {
         label: '场景案例',
         icon: 'demo',
-        page: 'chart-demo'
+        type: 'chart-demo'
       },
       {
         label: '折线图',
         icon: 'line',
-        page: 'chart-line'
+        type: 'chart-line'
       },
       {
         label: '面积图',
         icon: 'area',
-        page: 'chart-area'
+        type: 'chart-area'
       },
       {
         label: '柱状图',
         icon: 'bar',
-        page: 'chart-bar'
+        type: 'chart-bar'
       },
       {
         label: '条状图',
         icon: 'horizontal_bar',
-        page: 'chart-horizontal_bar'
+        type: 'chart-horizontal_bar'
       },
       {
         label: '饼图',
         icon: 'pie',
-        page: 'chart-pie'
+        type: 'chart-pie'
       },
       {
         label: '雷达图',
         icon: 'radar',
-        page: 'chart-radar'
+        type: 'chart-radar'
       },
       {
         label: '点图',
         icon: 'point',
-        page: 'chart-point'
+        type: 'chart-point'
       },
       {
         label: '漏斗图',
         icon: 'funnel',
-        page: 'chart-funnel'
+        type: 'chart-funnel'
       },
       {
         label: '蜡烛图',
         icon: 'k_line',
-        page: 'chart-k_line'
+        type: 'chart-k_line'
       },
       {
         label: '关系图',
         icon: 'relation',
-        page: 'chart-relation'
+        type: 'chart-relation'
       },
       {
         label: '热力图',
         icon: 'hot',
-        page: 'chart-hot'
+        type: 'chart-hot'
       },
       {
         label: '功能组件',
         icon: 'mosaic',
-        page: 'chart-mosaic'
+        type: 'chart-mosaic'
       },
       {
         label: '其他图表',
         icon: 'all',
-        page: 'chart-all'
+        type: 'chart-all'
       }
     ]
   },
   methods: {
-    onItemTap(page) {
-      console.log(page);
+    onItemTap(label, type) {
       wx.navigateTo({
-        url: `/pages/${page}`
+        url: `/pages/chart-list?label=${label}&type=${type}`
       });
     }
   }

@@ -61,7 +61,7 @@ wepy.app({
 {
     pages: [
       'pages/index',
-      'pages/chart-basic'
+      'pages/chart-list'
     ],
     window: {
       backgroundTextStyle: 'light',
