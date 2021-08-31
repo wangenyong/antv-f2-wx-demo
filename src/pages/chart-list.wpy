@@ -7,20 +7,68 @@
 }
 </config>
 <template>
-  <div class="container"></div>
+  <div class="container">
+    <div class="item" v-for="(item, index) in items" v-bind:key="index">
+      <image :src="item.image" mode="aspectFit" />
+      <div class="title">{{item.title}}</div>
+    </div>
+  </div>
 </template>
 <script>
 import wepy from '@wepy/core';
+
+const data = {
+  'chart-basic': [
+    {
+      title: '基础演示',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/92dbeff4-526e-48df-b122-72ed50395b79.jpg'
+    }
+  ]
+};
 wepy.page({
-  data: {},
+  data: {
+    items: []
+  },
   onLoad(options) {
-    console.log(options)
+    console.log(options);
     wx.setNavigationBarTitle({
       title: options.label
     });
+    this.items = data[options.type] ? data[options.type] : [];
   },
   methods: {}
 });
 </script>
 <style scoped>
+.container {
+  padding: 12px 12px 0 12px;
+}
+
+.item {
+  position: relative;
+  width: 100%;
+  margin-bottom: 12px;
+  height: 160px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.item image {
+  width: 100%;
+  height: 160px;
+  display: block;
+  border-radius: 8px;
+}
+
+.item .title {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 10px;
+  border-radius: 4px;
+  background-color: #aaaaaa;
+  color: white;
+  padding: 4px 6px;
+}
 </style>
