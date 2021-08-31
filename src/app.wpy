@@ -60,7 +60,8 @@ wepy.app({
 <config>
 {
     pages: [
-      'pages/index'
+      'pages/index',
+      'pages/chart-basic'
     ],
     window: {
       backgroundTextStyle: 'light',

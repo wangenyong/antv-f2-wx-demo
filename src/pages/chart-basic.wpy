@@ -1,0 +1,19 @@
+<config>
+{
+  navigationBarTitleText: '基础演示',
+  "usingComponents": {
+    "iconfont": "../components/iconfont"
+  }
+}
+<template>
+  <div class="container"></div>
+</template>
+<script>
+import wepy from '@wepy/core';
+wepy.page({
+  data: {},
+  methods: {}
+});
+</script>
+<style scoped>
+</style>
