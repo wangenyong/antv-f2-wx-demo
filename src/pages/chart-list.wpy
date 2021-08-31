@@ -9,7 +9,7 @@
 <template>
   <div class="container">
     <div class="item" v-for="(item, index) in items" v-bind:key="index">
-      <image :src="item.image" mode="aspectFit" />
+      <image :src="item.image" mode="aspectFill" />
       <div class="title">{{item.title}}</div>
     </div>
   </div>
@@ -24,7 +24,100 @@ const data = {
       image:
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/92dbeff4-526e-48df-b122-72ed50395b79.jpg'
     }
-  ]
+  ],
+  'chart-demo': [
+    {
+      title: 'Apple Watch 健身记录',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/neWvhxDYSxbNVSoZIgMN.gif'
+    },
+    {
+      title: '预测线',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_sDB-S6qxxsYAAAAAAAAAAABkARQnAQ.png'
+    },{
+      title: '半圆进度条',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/fzCCwErtNDbjwJZCNFQR.gif'
+    },
+    {
+      title: '健康步数',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/MLIlBSbtaBRiivHdBGmM.png'
+    },
+    {
+      title: '横屏图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/18e3331d-b7bd-476e-93eb-f7a90fc55e00.png'
+    }
+  ],
+  'chart-line': [
+    {
+      title: '基础',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_YWvIQ762ue8AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '开启无障碍',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/6742651a-f82f-48a6-94e6-6aa5346a40dc.png'
+    },
+    {
+      title: '带点',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_zMALRqNhl_kAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '曲线',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_LU4qRJrOSQkAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '折线图平移',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/aBZOzDgTsMIbxvGQLcSY.gif'
+    },
+    {
+      title: '曲线平移',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/oBEWTgvzsUsrfguzUSAj.gif'
+    },
+    {
+      title: '走势对比',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_BDubSYaFpboAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '虚实线对比',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_V0TlQKyD5cYAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '折线锚点',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/oliZtaGQYjgTlOzebiog.png'
+    },
+    {
+      title: '某黄金实时金价走势图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/nhKcpmYFRYcSeQgTQSZW.png'
+    },
+    {
+      title: '实时折线',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/McevuIUuSZcUbkBEOGRc.gif'
+    },
+    {
+      title: '存在空值',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_hHrSSp5Kkk8AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '连接空值数据',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_GmD8Q4j3jtoAAAAAAAAAAABkARQnAQ.png'
+    }
+  ],
 };
 wepy.page({
   data: {
@@ -49,14 +142,14 @@ wepy.page({
   position: relative;
   width: 100%;
   margin-bottom: 12px;
-  height: 160px;
+  height: 185px;
   border-radius: 8px;
   background-color: white;
 }
 
 .item image {
   width: 100%;
-  height: 160px;
+  height: 185px;
   display: block;
   border-radius: 8px;
 }
