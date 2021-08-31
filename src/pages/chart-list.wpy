@@ -35,7 +35,8 @@ const data = {
       title: '预测线',
       image:
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_sDB-S6qxxsYAAAAAAAAAAABkARQnAQ.png'
-    },{
+    },
+    {
       title: '半圆进度条',
       image:
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/fzCCwErtNDbjwJZCNFQR.gif'
@@ -153,7 +154,7 @@ const data = {
       title: '百分比层叠面积图',
       image:
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_o8X_TZ1reQUAAAAAAAAAAABkARQnAQ.png'
-    },
+    }
   ],
   'chart-bar': [
     {
@@ -175,7 +176,8 @@ const data = {
       title: '柱状图平移',
       image:
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/YuwGCXucVvoJLqkqDgLJ.gif'
-    },{
+    },
+    {
       title: '区间柱状图',
       image:
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_18g1Tr7RTngAAAAAAAAAAABkARQnAQ.png'
@@ -199,7 +201,8 @@ const data = {
       title: '带负值的分组柱状图',
       image:
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_WDqYSYm6HPAAAAAAAAAAAABkARQnAQ.png'
-    },{
+    },
+    {
       title: '层叠柱状图',
       image:
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_4wicQ6b0U2cAAAAAAAAAAABkARQnAQ.png'
@@ -213,12 +216,35 @@ const data = {
       title: '百分比层叠柱状图',
       image:
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_WZ5jQqzGVSwAAAAAAAAAAABkARQnAQ.png'
-    },{
+    },
+    {
       title: '百分比层叠柱状图',
       image:
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/f8f994c4-064e-4d7c-a153-63f19553c6e8.jpg'
     }
   ],
+  'chart-horizontal_bar': [
+    {
+      title: '基础条状图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_ozp8QYSQee8AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '区间条状图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/a3d7617d-a2d0-4729-b1d8-24df26ffa82c.jpg'
+    },
+    {
+      title: '分组柱状图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_MF4lTYiYXV8AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '带负值',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_KONhS7Py0XMAAAAAAAAAAABkARQnAQ.png'
+    }
+  ]
 };
 wepy.page({
   data: {
