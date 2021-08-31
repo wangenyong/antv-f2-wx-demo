@@ -155,6 +155,70 @@ const data = {
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_o8X_TZ1reQUAAAAAAAAAAABkARQnAQ.png'
     },
   ],
+  'chart-bar': [
+    {
+      title: '基础柱状图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_vDAjTLpn6YwAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '开启无障碍',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/92dbeff4-526e-48df-b122-72ed50395b79.jpg'
+    },
+    {
+      title: '柱状图选中',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/GhDuESLuLpYUuTgLYfLF.gif'
+    },
+    {
+      title: '柱状图平移',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/YuwGCXucVvoJLqkqDgLJ.gif'
+    },{
+      title: '区间柱状图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_18g1Tr7RTngAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '渐变色柱状图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_eqocQ7izB-UAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '纹理柱状图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_i4_MT7N4e5wAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '分组柱状图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_97qoRaK-4qAAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '带负值的分组柱状图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_WDqYSYm6HPAAAAAAAAAAAABkARQnAQ.png'
+    },{
+      title: '层叠柱状图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_4wicQ6b0U2cAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '层叠条状图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_JHcUR7EEbo8AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '百分比层叠柱状图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_WZ5jQqzGVSwAAAAAAAAAAABkARQnAQ.png'
+    },{
+      title: '百分比层叠柱状图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/f8f994c4-064e-4d7c-a153-63f19553c6e8.jpg'
+    }
+  ],
 };
 wepy.page({
   data: {
