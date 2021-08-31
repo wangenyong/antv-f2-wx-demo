@@ -8,22 +8,129 @@
 </config>
 <template>
   <div class="container">
-    <iconfont icon="hot" color="red"></iconfont>
+    <div class="grid">
+      <div class="grid-item" v-for="(item, index) in items" v-bind:key="index">
+        <div class="grid-item-content item">
+          <iconfont :icon="item.icon" color="grey"></iconfont>
+          <div class="label">{{ item.label }}</div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import wepy from '@wepy/core';
-
 wepy.page({
   config: {
     navigationBarTitleText: 'test'
   },
-  data: {},
-
+  data: {
+    items: [
+      {
+        label: '基础演示',
+        icon: 'bar'
+      },
+      {
+        label: '场景案例',
+        icon: 'demo'
+      },
+      {
+        label: '折线图',
+        icon: 'line'
+      },
+      {
+        label: '面积图',
+        icon: 'area'
+      },
+      {
+        label: '柱状图',
+        icon: 'bar'
+      },
+      {
+        label: '条状图',
+        icon: 'horizontal_bar'
+      },
+      {
+        label: '饼图',
+        icon: 'pie'
+      },
+      {
+        label: '雷达图',
+        icon: 'radar'
+      },
+      {
+        label: '点图',
+        icon: 'point'
+      },
+      {
+        label: '漏斗图',
+        icon: 'funnel'
+      },
+      {
+        label: '蜡烛图',
+        icon: 'k_line'
+      },
+      {
+        label: '关系图',
+        icon: 'relation'
+      },
+      {
+        label: '热力图',
+        icon: 'hot'
+      },
+      {
+        label: '功能组件',
+        icon: 'mosaic'
+      },
+      {
+        label: '其他图表',
+        icon: 'all'
+      },
+    ]
+  },
   methods: {}
 });
 </script>
+
 <style scoped>
+.container {
+  padding-bottom: 12px;
+}
+
+.grid {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+}
+.grid .grid-item {
+  flex: 0 0 auto;
+  width: 30%;
+  position: relative;
+  height: 0;
+  padding-bottom: 30%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+}
+.grid .grid-item .grid-item-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.item {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item .label {
+  font-size: 14px;
+  margin-top: 8px;
+}
 </style>
 
