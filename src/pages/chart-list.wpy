@@ -118,6 +118,43 @@ const data = {
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_GmD8Q4j3jtoAAAAAAAAAAABkARQnAQ.png'
     }
   ],
+  'chart-area': [
+    {
+      title: '基础面积图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_iaxqSLvD7BUAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '带负值面积图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A__iPJQJENNrYAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '带负值面积图（x基线不为0）',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_DE2uRKCtVf4AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '渐变填充面积图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_qSQERq7-D7gAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '层叠面积图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A__SQ6TItK-U8AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '区域图（存在空值）',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_-nK6RrEhNp8AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '百分比层叠面积图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_o8X_TZ1reQUAAAAAAAAAAABkARQnAQ.png'
+    },
+  ],
 };
 wepy.page({
   data: {
