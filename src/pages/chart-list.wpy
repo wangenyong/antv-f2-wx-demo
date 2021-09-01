@@ -244,6 +244,53 @@ const data = {
       image:
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_KONhS7Py0XMAAAAAAAAAAABkARQnAQ.png'
     }
+  ],
+  'chart-pie': [
+    {
+      title: '基础饼图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_fZ11RIsy8zQAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '带标签',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/rcTtDyvGxxtdWnlbQUhP.png'
+    },
+    {
+      title: '带图例、文本的饼图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/zRpyGBwOnktHfsItbDCu.png'
+    },
+    {
+      title: '可点击的文本',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/TCJpeimSBuJPfkVVTWUA.gif'
+    },
+    {
+      title: '基础环形图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_daoeTb9UrAkAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '嵌套环图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_QlKgTb7bk3sAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '嵌套环图点击',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/aaee5282-92ca-49c9-9b36-25a5ab450567.jpg'
+    },
+    {
+      title: '环形进度条',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_o56fS55cFGcAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '玫瑰图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_agBZRoedYKQAAAAAAAAAAABkARQnAQ.png'
+    }
   ]
 };
 wepy.page({
