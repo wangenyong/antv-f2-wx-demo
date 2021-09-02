@@ -57,7 +57,8 @@ const data = {
     {
       title: '基础',
       image:
-        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_YWvIQ762ue8AAAAAAAAAAABkARQnAQ.png'
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_YWvIQ762ue8AAAAAAAAAAABkARQnAQ.png',
+      page: 'line-basic'
     },
     {
       title: '开启无障碍',
@@ -558,11 +559,11 @@ wepy.page({
   },
   methods: {
     showChart(item) {
-      console.log(item)
+      console.log(item);
       if (item.page) {
         wx.navigateTo({
-        url: `/pages/chart/${item.page}?title=${item.title}`
-      });
+          url: `/pages/chart/${item.page}?title=${item.title}`
+        });
       }
     }
   }

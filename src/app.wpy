@@ -62,7 +62,8 @@ wepy.app({
     pages: [
       'pages/index',
       'pages/chart-list',
-      'pages/chart/basic-demo'
+      'pages/chart/basic-demo',
+      'pages/chart/line-basic'
     ],
     window: {
       backgroundTextStyle: 'light',
