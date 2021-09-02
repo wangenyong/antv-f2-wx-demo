@@ -8,7 +8,7 @@
 </config>
 <template>
   <div class="container">
-    <div class="item" v-for="(item, index) in items" v-bind:key="index">
+    <div class="item" v-for="(item, index) in items" v-bind:key="index" @tap="showChart(item)">
       <image :src="item.image" mode="aspectFill" />
       <div class="title">{{item.title}}</div>
     </div>
@@ -22,7 +22,8 @@ const data = {
     {
       title: '基础演示',
       image:
-        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/92dbeff4-526e-48df-b122-72ed50395b79.jpg'
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/92dbeff4-526e-48df-b122-72ed50395b79.jpg',
+      page: 'basic-demo'
     }
   ],
   'chart-demo': [
@@ -555,7 +556,16 @@ wepy.page({
     });
     this.items = data[options.type] ? data[options.type] : [];
   },
-  methods: {}
+  methods: {
+    showChart(item) {
+      console.log(item)
+      if (item.page) {
+        wx.navigateTo({
+        url: `/pages/chart/${item.page}?title=${item.title}`
+      });
+      }
+    }
+  }
 });
 </script>
 <style scoped>
