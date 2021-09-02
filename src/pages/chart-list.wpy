@@ -291,6 +291,257 @@ const data = {
       image:
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_agBZRoedYKQAAAAAAAAAAABkARQnAQ.png'
     }
+  ],
+  'chart-radar': [
+    {
+      title: '雷达图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_0c5LQ4uSHLUAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '雷达面积图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_tq5ERqXPyOUAAAAAAAAAAABkARQnAQ.png'
+    }
+  ],
+  'chart-point': [
+    {
+      title: '散点图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_Xpt7QLmlgz0AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '气泡图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_eKP_RJ2aMfgAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '使用量比对',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_5ZpOQp1aUTMAAAAAAAAAAABkARQnAQ.png'
+    }
+  ],
+  'chart-funnel': [
+    {
+      title: '基础金字塔图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/0ea9b22a-139b-4565-bc45-1dcec0b8e739.jpg'
+    },
+    {
+      title: '金字塔图有间距',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/ca7a35dd-b1e9-46b4-a802-54ee4c5e3501.jpg'
+    },
+    {
+      title: '金字塔图旋转向下',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/8b69153b-d84f-47c8-85e3-73c040c2ea59.jpg'
+    },
+    {
+      title: '基础漏斗图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/de13d1df-dd50-4637-be20-0b89b483b977.jpg'
+    },
+    {
+      title: '漏斗图有间距',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/4f420a5d-6a81-4ef8-9cba-62106bbdb593.jpg'
+    }
+  ],
+  'chart-k_line': [
+    {
+      title: '股票类型业绩涨跌',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/ClNOWARMKZlTAOPeZBsy.png'
+    },
+    {
+      title: '股票类型日 K',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/jqdTOsNQxXieHieJNtcJ.gif'
+    },
+    {
+      title: '股票类型分时',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/lyOtxZlyFOKWPRwXLwNU.png'
+    }
+  ],
+  'chart-relation': [
+    {
+      title: '矩形式树图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/586af851-f89e-4dd4-9b96-f2037b65df3e.png'
+    }
+  ],
+  'chart-hot': [
+    {
+      title: '矩形热力图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_BWtjR4umpQEAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '圆形热力图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_UgFTRY1vmOYAAAAAAAAAAABkARQnAQ.png'
+    }
+  ],
+  'chart-mosaic': [
+    {
+      title: 'Tooltip-自定义 HTM',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/GXqFyFmzhrVvJeWNSHDL.png'
+    },
+    {
+      title: 'Tooltip-初始化显示',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_gWTUTailUm8AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: 'Tooltip-自定义样式',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/yBVVBtLFXvgdGmwvszLz.png'
+    },
+    {
+      title: 'Tooltip-带标题',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/afmjgjKPzsZvahJLPJDT.png'
+    },
+    {
+      title: 'Tooltip-内容项垂直布局',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/sVekNnLYTQZgOqQsTJGl.png'
+    },
+    {
+      title: 'Tooltip-x 轴提示信息',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/flPxHqBrsOhTxpHwbGyV.png'
+    },
+    {
+      title: '图例-水平居中布局',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_C210Q475p-gAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '图例-自定义文本样式',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/BShyFEbEGSzelBBlwSMh.png'
+    },
+    {
+      title: '图例-自定义带交互',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_YTVbTYrs9psAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '图例-marker 定制',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_eXdUSK1ELJIAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '图例-单选模式',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/BtrPoTwBnRffSntInDhA.gif'
+    },
+    {
+      title: '图例-右上角图例',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_oUgARYL8FV4AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '自定义图片',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/acdf4842-9fb2-4a59-b758-f57ed4237951.png'
+    },
+    {
+      title: 'Guide-Arc',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/rRAJQqGHrUhXPiLNoTLE.gif'
+    },
+    {
+      title: 'Guide-html',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_oXAtTorUDjMAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: 'Guide-line',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_hjmXQJ06UykAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: 'Guide-rect',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_Oo_EQZ96nI4AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: 'Guide-regionFilter',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_6v1fRatDBM4AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: 'Guide-Tag',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_AM3PRpvPuHsAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: 'Guide-Text',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_-8PcSZh70BMAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: 'Guide-带 iconfont 的辅助文本',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/fgMlJBPjAcnOWfCtgQEa.png'
+    },
+    {
+      title: 'Guide-point',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_0_b7R74GJh4AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '坐标轴-文本换行',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_O5j1RaFlRasAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '坐标轴-文本换行',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_NdWZSqx49dAAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '坐标轴-label 回调',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_R6CYSIRyQYIAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '坐标轴-grid 样式',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_q7t4TIH09UYAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '坐标轴-grid 回调',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_AvUwRohmUYAAAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '坐标轴-弧形网格线',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_JU-mQ7eiXI8AAAAAAAAAAABkARQnAQ.png'
+    },
+    {
+      title: '坐标轴-iconfont',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/yemAvFtBapMsbNZPDIAH.png'
+    }
+  ],
+  'chart-all': [
+    {
+      title: '文字词云图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/223c6528-34b7-44b8-93c2-93208caf0a52.png'
+    },
+    {
+      title: '地图',
+      image:
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/51d3f37a-d0ab-47d8-9037-d8fb7791f497.png'
+    }
   ]
 };
 wepy.page({
