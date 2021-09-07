@@ -63,7 +63,8 @@ const data = {
     {
       title: '开启无障碍',
       image:
-        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/6742651a-f82f-48a6-94e6-6aa5346a40dc.png'
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/6742651a-f82f-48a6-94e6-6aa5346a40dc.png',
+      page: 'line-barrier-free'
     },
     {
       title: '带点',

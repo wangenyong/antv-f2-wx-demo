@@ -63,7 +63,8 @@ wepy.app({
       'pages/index',
       'pages/chart-list',
       'pages/chart/basic-demo',
-      'pages/chart/line-basic'
+      'pages/chart/line-basic',
+      'pages/chart/line-barrier-free'
     ],
     window: {
       backgroundTextStyle: 'light',
