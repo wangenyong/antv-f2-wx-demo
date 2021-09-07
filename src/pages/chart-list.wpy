@@ -70,12 +70,13 @@ const data = {
       title: '带点',
       image:
         'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_zMALRqNhl_kAAAAAAAAAAABkARQnAQ.png',
-        page: 'line-point'
+      page: 'line-point'
     },
     {
       title: '曲线',
       image:
-        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_LU4qRJrOSQkAAAAAAAAAAABkARQnAQ.png'
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_LU4qRJrOSQkAAAAAAAAAAABkARQnAQ.png',
+      page: 'line-curve'
     },
     {
       title: '折线图平移',
