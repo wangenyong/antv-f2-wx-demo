@@ -64,7 +64,8 @@ wepy.app({
       'pages/chart-list',
       'pages/chart/basic-demo',
       'pages/chart/line-basic',
-      'pages/chart/line-barrier-free'
+      'pages/chart/line-barrier-free',
+      'pages/chart/line-point'
     ],
     window: {
       backgroundTextStyle: 'light',

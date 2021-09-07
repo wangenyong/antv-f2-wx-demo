@@ -69,7 +69,8 @@ const data = {
     {
       title: '带点',
       image:
-        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_zMALRqNhl_kAAAAAAAAAAABkARQnAQ.png'
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_zMALRqNhl_kAAAAAAAAAAABkARQnAQ.png',
+        page: 'line-point'
     },
     {
       title: '曲线',
