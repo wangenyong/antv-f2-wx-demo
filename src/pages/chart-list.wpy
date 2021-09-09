@@ -91,7 +91,8 @@ const data = {
     {
       title: '走势对比',
       image:
-        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_BDubSYaFpboAAAAAAAAAAABkARQnAQ.png'
+        'https://development-1253817761.cos.ap-chengdu.myqcloud.com/antv_f2_wx_demo/A_BDubSYaFpboAAAAAAAAAAABkARQnAQ.png',
+        page: 'line-trend'
     },
     {
       title: '虚实线对比',

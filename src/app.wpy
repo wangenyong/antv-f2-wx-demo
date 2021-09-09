@@ -67,7 +67,8 @@ wepy.app({
       'pages/chart/line-barrier-free',
       'pages/chart/line-point',
       'pages/chart/line-curve',
-      'pages/chart/line-panning'
+      'pages/chart/line-panning',
+      'pages/chart/line-trend'
     ],
     window: {
       backgroundTextStyle: 'light',

@@ -18,6 +18,7 @@
   "dependencies": {
     "@wepy/core": "^2.0.0-alpha.16",
     "antv-f2-wx": "^1.0.3",
+    "lodash": "^4.17.21",
     "miniprogram-slide-view": "0.0.3"
   },
   "devDependencies": {
