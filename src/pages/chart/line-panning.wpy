@@ -1,0 +1,105 @@
+<config>
+{
+  navigationBarTitleText: '图表',
+  "usingComponents": {
+    "f2-canvas": "module:antv-f2-wx",
+  }
+}
+</config>
+<template>
+  <div class="container">
+    <div class="chart">
+      <f2-canvas id="chart" :onInit="onInitChart" @on-chart-ready-event="onChartReady" />
+    </div>
+  </div>
+</template>
+<script>
+import wepy from '@wepy/core';
+
+wepy.page({
+  data: {
+    onInitChart(F2, config) {
+      const chart = new F2.Chart(config);
+      return chart;
+    }
+  },
+  onLoad(options) {
+    console.log(options);
+    wx.setNavigationBarTitle({
+      title: options.title
+    });
+  },
+  methods: {
+    onChartReady() {
+      const that = this;
+      wx.request({
+        url:
+          'https://gw.alipayobjects.com/os/antfincdn/Jpuku6k%24q%24/linear-pan.json',
+        success(res) {
+          console.log(res.data);
+          let chartComp = that.$wx.selectComponent('#chart');
+          console.log(chartComp);
+
+          let chart = chartComp.chart;
+          chart.source(res.data, {
+            release: {
+              min: 1990,
+              max: 2010
+            }
+          });
+          chart.tooltip({
+            showCrosshairs: true,
+            showItemMarker: false,
+            background: {
+              radius: 2,
+              fill: '#1890FF',
+              padding: [3, 5]
+            },
+            nameStyle: {
+              fill: '#fff'
+            },
+            onShow: function onShow(ev) {
+              const items = ev.items;
+              items[0].name = items[0].title;
+            }
+          });
+          chart.line().position('release*count');
+          chart
+            .point()
+            .position('release*count')
+            .style({
+              lineWidth: 1,
+              stroke: '#fff'
+            });
+
+          chart.interaction('pan');
+          // 定义进度条
+          chart.scrollBar({
+            mode: 'x',
+            xStyle: {
+              offsetY: -5
+            }
+          });
+
+          // 绘制 tag
+          chart.guide().tag({
+            position: [1969, 1344],
+            withPoint: false,
+            content: '1,344',
+            limitInPlot: true,
+            offsetX: 5,
+            direct: 'cr'
+          });
+          chart.render();
+        }
+      });
+    }
+  }
+});
+</script>
+<style scoped>
+.container .chart {
+  width: 100%;
+  height: 200px;
+}
+</style>

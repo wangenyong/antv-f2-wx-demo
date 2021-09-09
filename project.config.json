@@ -37,7 +37,7 @@
   },
   "compileType": "miniprogram",
   "appid": "wxbb35b436eb983137",
-  "projectname": "antv-f2-wx-demo",
+  "projectname": "antv-f2-wepy-demo",
   "miniprogramRoot": "weapp/",
   "condition": {}
 }
